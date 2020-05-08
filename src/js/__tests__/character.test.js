@@ -7,8 +7,6 @@ test("created Character", () => {
     name: "Oleg",
     health: 100,
     level: 1,
-    attack: 0,
-    defence: 0,
   };
   expect(result).toEqual(expected);
 });
